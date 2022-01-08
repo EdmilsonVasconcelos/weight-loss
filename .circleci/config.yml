@@ -29,10 +29,10 @@ workflows:
           filters:
             branches:
               only: master
-      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
-          app-name: $HEROKU_STAGING_APP_NAME
-          requires:
-            - build
-          filters:
-            branches:
-              only: develop
+      # - heroku/deploy-via-git-staging: # Use the pre-configured job, deploy-via-git
+      #     app-name: $HEROKU_STAGING_APP_NAME
+      #     requires:
+      #       - build
+      #     filters:
+      #       branches:
+      #         only: develop
