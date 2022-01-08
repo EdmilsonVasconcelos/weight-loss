@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+touch .eslintignore
+touch .prettierignore
+
+**/node_modules/**
+**/build/**
+**/dist/**
+**/.git/**
+**/public/**
