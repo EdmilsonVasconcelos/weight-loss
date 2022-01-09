@@ -72,7 +72,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test --coverage"
+      "pre-commit": "yarn test --watch"
     }
   }
 }
