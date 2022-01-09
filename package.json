@@ -27,7 +27,8 @@
     "eject": "react-scripts eject",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "precommit": "lint-staged && set CI=true&&yarn test"
   },
   "eslintConfig": {
     "extends": [
