@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint-staged
+echo "\\n\\n\\nTestes Unitários\\n\\n\\n"
+yarn test:coverage
